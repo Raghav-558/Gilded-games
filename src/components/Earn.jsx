@@ -6,7 +6,7 @@ import RightShadow from '../assets/images/webp/white-shadow-right.webp'
 const Earn = () => {
   return (
     <div>
-      <div className='pb-[110px] max-lg:pb-20 max-md:pb-[60px] max-sm:pb-10 overflow-hidden'>
+      <div id='presale' className='pb-[110px] max-lg:pb-20 max-md:pb-[60px] max-sm:pb-10 overflow-hidden'>
         <div className='max-w-[1352px] max-2xl:px-4 mx-auto relative'>
           <img
             className='absolute top-[70%] -translate-y-1/2 -left-[23.8%] max-2xl:hidden'
@@ -14,7 +14,7 @@ const Earn = () => {
             alt='shadow-image'
           />
           <img
-            className=' absolute  top-[70%] -translate-y-1/2 rotate-y-180 -right-[22%] max-2xl:hidden'
+            className=' absolute  top-[70%] -translate-y-1/2 rotate-y-180 -right-[21.5%] max-2xl:hidden'
             src={RightShadow}
             alt='shadow-image'
           />

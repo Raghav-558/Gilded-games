@@ -3,7 +3,7 @@ import GirlImage from '../assets/images/webp/utility-girl.webp'
 
 const Utility = () => {
   return (
-    <div className='bg-utility bg-no-repeat bg-cover bg-center'>
+    <div id='staking' className='bg-utility bg-no-repeat bg-cover bg-center'>
       <div className='max-w-[1232px] px-4 mx-auto pt-[105px] pb-[194px] max-lg:py-20 max-md:py-[60px] max-sm:py-10'>
         <div className='flex items-center justify-between max-xl:justify-center flex-wrap'>
           <div>

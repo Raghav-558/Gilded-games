@@ -4,7 +4,7 @@ import Image2 from '../assets/images/webp/quote-right.webp'
 
 const GamingPlatform = () => {
   return (
-    <div className='bg-gaming-platform bg-no-repeat bg-cover bg-center'>
+    <div id='nodes' className='bg-gaming-platform bg-no-repeat bg-cover bg-center'>
       <div className='max-w-[972px] px-4 mx-auto relative pt-[229px] py-[228px] max-lg:py-[200px] max-md:py-[160px] max-sm:py-[100px]'>
         <h3 className='text-white text-[40px] leading-[62.4px] text-center max-lg:text-4xl max-md:text-3xl max-sm:text-2xl max-sm:leading-8 max-lg:leading-[50px] max-md:leading-[40px] '>
           <span className='relative'>

@@ -4,6 +4,10 @@
   font-family: 'Josefin Sans', serif;
 }
 
+html,body{
+  scroll-behavior: smooth !important;
+}
+
 body {
   background-color: black;
 }
