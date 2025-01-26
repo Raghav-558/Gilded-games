@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   font-family: 'Josefin Sans', serif;
 }
 
-html,body{
+html,
+body {
   scroll-behavior: smooth !important;
 }
 
@@ -14,6 +15,10 @@ body {
 
 .font-poppins {
   font-family: 'Poppins', serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', serif;
 }
 
 .bg-hero {
@@ -26,6 +31,14 @@ body {
 
 .bg-gaming-platform {
   background-image: url('./assets/images/webp/gaming-platform-bg.webp');
+}
+
+.bg-token-info {
+  background-image: url('./assets/images/webp/gild-bg.webp');
+}
+
+.bg-uniswap {
+  background-image: url('./assets/images/webp/uniswap-bg.webp');
 }
 
 .common-button {
@@ -41,4 +54,9 @@ body {
 
 .border-play-to-earn {
   background-image: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+}
+
+.roadmap-color {
+  background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+  box-shadow: 0px 0px 63.22px 0px #1babfe;
 }

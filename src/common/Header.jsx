@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { HEADER_LIST } from '../utils/helper'
 import { DiscordIcon } from '../utils/icons'
 import PageLogo from '../assets/images/webp/page-logo.webp'
+import { HEADER_LIST } from '../utils/helper'
 
 const Header = () => {
   const [open, setOpen] = useState(false)
