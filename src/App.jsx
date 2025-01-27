@@ -1,4 +1,5 @@
 import './App.css'
+import BackToTop from './common/BackToTop'
 import Earn from './components/Earn'
 import GamingPlatform from './components/GamingPlatform'
 import Hero from './components/Hero'
@@ -19,6 +20,7 @@ function App () {
       <Roadmap />
       <Uniswap />
       <PoweredBy />
+      <BackToTop/>
     </>
   )
 }

@@ -12,7 +12,7 @@ const Uniswap = () => {
           <h2 className='text-white text-5xl leading-[61.2px] font-bold max-md:text-3xl max-md:leading-8 pb-[21px] max-sm:text-center'>
             Buy On <span className='text-gradient'>Uniswap</span>
           </h2>
-          <ul className='list-disc pl-6'>
+          <ul className='list-disc pl-6 max-sm:max-w-max max-sm:mx-auto'>
             {UNISWAP_LIST.map((obj, i) => (
               <li
                 key={i}

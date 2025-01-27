@@ -19,7 +19,7 @@ const TokenInfo = () => {
                   <img
                     src={item.image}
                     alt='logo'
-                    className='h-[70px] max-lg:h-12 max-sm:h-10 pointer-events-none'
+                    className='h-[70px] max-lg:h-12 pointer-events-none'
                   />
                   <p className='font-bold text-3xl max-lg:text-2xl max-sm:text-xl leading-[38.25px] text-white pt-[10px] pb-1 max-lg:pb-0 text-center'>
                     {item.title}
