@@ -100,8 +100,8 @@ export const BackToTopIcon = ({ myClass }) => (
   <svg
     className={`${myClass}`}
     xmlns='http://www.w3.org/2000/svg'
-    width='30'
-    height='30'
+    width='42'
+    height='42'
     fill='#32C7F1'
     class='bi bi-arrow-up-square-fill'
     viewBox='0 0 16 16'

@@ -23,7 +23,7 @@ const BackToTop = () => {
           onClick={scrollToTop}
           className='fixed bottom-5 right-5 z-30 rounded-lg flex justify-center'
         >
-          <BackToTopIcon myClass={'min-[1440px]:w-12 min-[1440px]:h-12'} />
+          <BackToTopIcon myClass={'max-xl:!w-[30px] max-xl:!h-[30px]'} />
         </button>
       )}
     </div>

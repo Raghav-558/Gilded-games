@@ -24,7 +24,7 @@ const Roadmap = () => {
                 key={i}
                 className='relative max-w-[300px] max-lg:ml-[100px] w-full'
               >
-                <div className='absolute top-[-95px] w-[53px] h-[50px] roadmap-color rounded-full max-lg:left-[-120px] max-[460px]:left-[-80px] max-[460px]:size-[41px] max-lg:top-0'></div>
+                <div className='absolute top-[-95px] w-[53px] h-[50px] roadmap-color rounded-full max-lg:left-[-105px] max-[460px]:left-[-80px] max-lg:size-10 max-md:left-[-108px] max-md:top-[1px] max-[460px]:size-[41px] max-lg:top-0'></div>
                 <p className='text-lg font-semibold font-poppins text-white leading-[23.22px]'>
                   {item.step}
                 </p>
